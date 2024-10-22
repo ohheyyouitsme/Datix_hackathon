@@ -10,6 +10,9 @@ if 'selected_divisions' not in st.session_state:
 if 'selected_specialties' not in st.session_state:
     st.session_state.selected_specialties = None
 
+if 'df' not in st.session_state:
+    st.session_state.df = None
+
 # load main df
 datix_df = pd.read_csv("../data/1924_Total.csv")
 
