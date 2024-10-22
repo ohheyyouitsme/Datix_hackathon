@@ -1,3 +1,4 @@
+
 📊 Datix EDA Project 🏥
 Welcome to the Datix EDA Project! This project is all about exploring and analysing healthcare incident reporting data (Datix). Our aim is to uncover trends, visualise insights, and apply Natural Language Processing (NLP) to better understand the narrative behind incident reports.
 
@@ -41,3 +42,6 @@ By understanding the patterns and causes behind healthcare incidents, we can con
 
 🤝 Contributing to the Project
 This project welcomes contributions from anyone interested in data analysis, healthcare, or machine learning. Whether you're an expert in EDA, NLP, or Streamlit, or just looking to learn, there are plenty of ways to get involved. Feel free to share your ideas, report issues, or contribute improvements.
+
+
+
