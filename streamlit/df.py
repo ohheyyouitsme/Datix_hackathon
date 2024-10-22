@@ -17,7 +17,7 @@ datix_df = pd.read_csv("../data/1924_Total.csv")
 selected_divisions = st.multiselect(
     "Select division(s)",
     datix_df["Division"].drop_duplicates().sort_values().tolist(),
-    default=st.session_state.selected_divisions
+    #default=st.session_state.selected_divisions
 )
 
 # filter on division
@@ -27,7 +27,7 @@ edited_df = datix_df[datix_df["Division"].isin(selected_divisions)]
 selected_specialties = st.multiselect(
     "Select specialty(s)",
     edited_df["Speciality"].drop_duplicates().sort_values().tolist(),
-    default=st.session_state.selected_specialties
+    #default=st.session_state.selected_specialties
 )
 
 # filter on specialties
@@ -36,6 +36,7 @@ edited_df = datix_df[datix_df["Speciality"].isin(selected_specialties)]
 # set session states
 st.session_state.selected_divisions = selected_divisions
 st.session_state.selected_specialties = selected_specialties
+st.session_state.df = edited_df
 
 with st.spinner(text="In progress"):
     time.sleep(2)
@@ -43,7 +44,7 @@ with st.spinner(text="In progress"):
 ## dataframe
 st.dataframe(
     # Pass edited df
-    edited_df[[ 'Category',
+    st.session_state.df[[ 'Category',
     'Sub Category',
     'Result',
     'Actual Harm',
