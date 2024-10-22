@@ -33,7 +33,7 @@ result_grouped_lessons = datix_df.groupby('Result')['Lessons Learned Processed']
 # Create a list for the tabs, so it the tabs can be created dymanically!
 tab_names = list(result_grouped_lessons.index)
 
-# Orginal wordcloud to the the effect with out removing the addional stopwords, create a for loop to iterate through
+# Orginal wordcloud to the effect with out removing the addional stopwords, create a for loop to iterate through
 tabs = st.tabs(tab_names)
 for i, result in enumerate(tab_names):
     with tabs[i]:
