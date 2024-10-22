@@ -1,0 +1,32 @@
+Datix ID,Category,Sub Category,Result,Actual Harm,Incident Date,Division,Speciality,Location (Exact),What Happened?,Action Taken (at the time of the incident),Summary of Actions Taken (Investigation),Lessons Learned
+138344,Patient: Records,Patient Records: Case notes or medical records issue,No Harm - Incident occurred but caused no harm,None (No harm),12/04/2022,"SWNS: Surgical, Women’s and Neonatal Services", Anogenital Neoplasia Service (HANS),P Ward,"not able to locate the HANS notes on Priestly which were necessary for consenting patients. Asked to more than one nurse, not aware of the matter, neither of the system. I personally screened all the notes in the office on priestly ward, and finally found them, using 15 minutes of the time for reviewing patients . This is happening quite often, usually they are left by HANS admin the day before the GA list at nurse in charge, but happen that the following day nurse is not informed or not aware where they have been left. THis represent a clinical risk, there must be a system in place for handover. 
+",reported to HANS manager who advised for datix and asked to have it discussed in the business meeting ,"Incident discussed in HANS governance 16.06.2022 - issue has been resolved, plan in place for future.",Issue re notes on ward has been resolved. 
+138899,"(Old Code, deactivated 31.03.23): Patient - Pressure Ulcer or Skin Damage (NON-Homerton-Acquired)",(Old Code): Pressure Ulcer - No services (Acquired at home),Harm - Incident caused harm,Low (Minimal harm: required extra observation or minor treatment),01/05/2022,"EMRS: Emergency Care, Medicine and Rehabilitation Services",Respiratory Medicine,L Ward,"Appears to have developped SDTI on right side of coccyx.
+Bilateral leg ulcers 
+
+
+
+Patient received on the ward  early this morning by night nurse","Order duo mattress
+Repositionned regularly
+Wound picture taken and sent to Pando
+Leg ulcers dressing done as per previous TVN plan.
+","All appropriate actions taken at time of incident.
+Patient admitted from home with pressure damage. Non Homerton acquired pressure ulcer
+Pressure mattress ordered and referred to TVN",Thanks for taking the time to report this incident
+140577,Patient: Maternity or Obstetrics: Mother,Mother: 3rd or 4th degree tear,Harm - Incident caused harm,Moderate (Short-term harm: required further treatment or procedure),15/06/2022,"SWNS: Surgical, Women’s and Neonatal Services",Maternity and Obstetrics,Delivery Suite or ,"unsucessful ventouse followed by foreceps resulting in - 3a perineal repair in theatre. Epise, extended.
+ebl 1300mls
+Vaginal pack put in.","see k2 
+x2 rbc transfused 
+TXA given 
+f/up care involved IVABXs, physio refferal and post pph care in EMCU","Review of case: pushing in second stage for an hour, maternal temperature and CTG concerns.
+
+Patient counselled about needing instrumental delivery adn consented to Kiwi, kwii cup popped off. Forceps placed and baby delivered
+
+3rd degree tear identified and patient transferred to theatre for repair in a timely fashion.
+Appropriate follow up in place
+",Patient transferred to theatre with swab in situ: discussion with doctor that this is not acceptable practice
+155076,Patient: Medication: Storage,Storage: PODs not stored in locker or not locked away,Harm - Incident caused harm,Low (Minimal harm: required extra observation or minor treatment),27/06/2023,"SWNS: Surgical, Women’s and Neonatal Services",Intensive Therapy and Critical Care (incl. ITU),SU  Critical Care,"tray of IV medications including a syringe of fentanyl 2.5mg in 50mL, midazolam 10mg in 10mL, propofol 10mg/mL in 20mL left on a trolley in the corridor outside B Bay after patient went for CT scan.",Asked bedside nurse regarding medications left on the trolley outside if she was aware and handed over that there was a tray of IV medications outside the bay. Nurse said she forgot about the fentanyl syringe. Also spoke with ITU doctor that it is poor practice to leave IV medications on a trolley on a corridor post scan. CD destructed.,Remainder email sent to all junior doctors with CC on all ITU consultants and ITU pharmacist.,Thank you for reporting. Situation like this will most likely repeat in the future and both nurses and doctors must be regularly reminded to avoid them. 
+154701,Patient: Records,"Patient Records: Images, scans or X-rays issue",No Harm - Incident occurred but caused no harm,None (No harm),17/06/2023,Access Directorate,"Radiology (Imaging, X-Ray, CT and Ultrasound, MRI,  Mammography)",Accident and Emergency - Majors,"Patient with an acute spine injury has been waiting for Neurosurgical team r/v for over 6 hours as it was delayed due to issue with images transfer.
+ ","Informed CIC in ED Dr. NAME 
+Spoke to Radiographer in RLH and they able to access the info
+Radiographer in Homerton transfer images at 4pm 17/6/23","I have checked the audit trail on IEP (Image Exchange Portal) and can see no obvious delay with the transmission of the study to BLT. It was sent by the duty radiographer at 15.47 and arrived a few mins later. I also spoke to the radiographer that sent it - NAME - and she doesn't recall anything untoward happening with this transfer on the day, although it was quite a few weeks ago. I can also see plenty of other IEP transmissions processed as normal on that day. It may be the delay was caused by failure to notify the radiographers IN PERSON that the transfer was required. The web-form on the intranet is for use during office hours only. I have emailed the person that submitted the datix to seek further clarification on this, but have heard nothing back so I am closing this datix down as I can find no obvious technical cause for the delay.",Please ensure any out of hours IEP requests are telephoned/or bleeped through to the on-call radiographers in person. The web-form is for use during office hours only when the PACS team are onsite.
