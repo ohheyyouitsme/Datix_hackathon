@@ -18,7 +18,7 @@ The dataset used includes details about incidents, their categories, the date & 
 
 
 #Load in data
-datix_df = pd.read_csv("Data/1924_Total.csv")
+datix_df = pd.read_csv(r"../data/1924_Total.csv")
 
 # Get drop the non-time formats, thanks stack overflow!
 datix_df['Time of Incident'] = pd.to_datetime(datix_df['Time of Incident'], errors='coerce')
@@ -69,15 +69,21 @@ with tab2:
     """)
     
     incidents_by_day = datix_df['Day of Week'].value_counts()
+    fig2 = px.bar(incidents_by_day,
+                x=incidents_by_day.index, 
+                y=incidents_by_day.values,
+                labels={'x': 'Day of the Week', 'y': 'Number of Incidents'},
+                title='Incident Count by Day of the Week')
+    st.plotly_chart(fig2)
     
-    plt.figure(figsize=(10, 6))
-    incidents_by_day.plot(kind='bar', color='skyblue')
-    plt.title('Incident Count by Day of the Week')
-    plt.xlabel('Day of the Week')
-    plt.ylabel('Number of Incidents')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    st.pyplot(plt)
+    # plt.figure(figsize=(10, 6))
+    # incidents_by_day.plot(kind='bar', color='skyblue')
+    # plt.title('Incident Count by Day of the Week')
+    # plt.xlabel('Day of the Week')
+    # plt.ylabel('Number of Incidents')
+    # plt.xticks(rotation=45)
+    # plt.tight_layout()
+    # st.pyplot(plt)
 
 # Tab 3: Interactive Heatmap - Enhanced Scatter plot maybe look into? Try to find old Rcode using Corr?
 with tab3:
